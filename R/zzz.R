@@ -11,6 +11,8 @@
 
   register_s3_method("pillar", "pillar_shaft", "moment_time_units")
 
+  register_s3_method("ggplot2", "scale_type", "moment")
+
   invisible()
 }
 
