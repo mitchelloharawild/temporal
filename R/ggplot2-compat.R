@@ -1,5 +1,5 @@
-scale_type.moment <- function(x) {
-  "moment"
+scale_type.mixtime <- function(x) {
+  "mixtime"
 }
 
 waiver <- function() {
@@ -22,7 +22,7 @@ set_sec_axis <- function(sec.axis, scale) {
 }
 
 #' @export
-scale_x_moment <- function(...) {
+scale_x_mixtime <- function(...) {
   require_package("ggplot2")
   sc <- ggplot2::scale_x_continuous(...)
 }
